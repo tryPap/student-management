@@ -13,7 +13,7 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  width: 285px;
   height: 90vh;
   padding: 20px;
   background-color: #343a40;
@@ -21,8 +21,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  border: 1px;
+  border-radius: 1px;
+ 
 }
 
 .sidebar h1 {
@@ -95,8 +97,10 @@ body {
 }
 
 .average-grade {
-  margin-top: auto;
-  padding-top: 20px;
+  height: 70px;
+  display: block;
+  bottom: 0;
+  position: absolute;
   font-weight: bold;
   font-size: 16px;
 }
@@ -110,6 +114,8 @@ body {
 }
 
 .student-list {
+  margin-bottom: 40px;
+  margin-left: 300px;
   flex: 1;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -160,16 +166,17 @@ body {
 
 /* Footer */
 footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
   background-color: #343a40;
-  color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 8px; 
+  height: 16px;
+  margin-bottom: 0;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  border-radius: 1px;
+  opacity: 0.9;
+ 
 }
 
 #printDate {

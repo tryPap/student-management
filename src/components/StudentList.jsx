@@ -114,8 +114,9 @@ const StudentList = () => {
           {students.map((student, index) => (
             <Student key={index} student={student} index={index} deleteStudent={deleteStudent} />
           ))}
+          <div className="average-grade">Average Grade: {calculateAverage()}</div>
         </div>
-        <div className="average-grade">Average Grade: {calculateAverage()}</div>
+        
       </div>
       <div style={{ display: 'none' }}>
         <PrintComponent ref={printComponentRef} students={students} />
