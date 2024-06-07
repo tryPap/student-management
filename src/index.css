@@ -1,31 +1,29 @@
-/* index.css */
 
-/* General Styles */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #f7f7f7;
 }
 
 .container {
   display: flex;
-  height: 100vh;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .sidebar {
   width: 285px;
-  height: 90vh;
+  height: 100vh;
   padding: 20px;
   background-color: #343a40;
   color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: absolute;
-  border: 1px;
+  position: relative;
   border-radius: 1px;
- 
 }
+
 
 .sidebar h1 {
   font-size: 24px;
@@ -46,6 +44,7 @@ body {
 }
 
 .input-group button {
+
   padding: 10px;
   background-color: #007bff;
   color: white;
@@ -60,6 +59,7 @@ body {
 }
 
 .button-group {
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -79,7 +79,7 @@ body {
 }
 
 .button-group .sort {
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .print {
@@ -97,28 +97,35 @@ body {
 }
 
 .average-grade {
-  height: 70px;
-  display: block;
-  bottom: 0;
-  position: absolute;
   font-weight: bold;
   font-size: 16px;
+  margin-top: 20px;
 }
 
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    padding-top: 20px; /* Adjust as needed */
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    flex-direction: column;
+  }
+}
 /* Main Content */
 .main-content {
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px;  
 }
 
 .student-list {
-  margin-bottom: 40px;
-  margin-left: 300px;
-  flex: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 10px;
   padding: 20px;
   overflow-y: auto;
@@ -168,8 +175,8 @@ body {
 footer {
   background-color: #343a40;
   padding: 10px 8px; 
-  height: 16px;
   margin-bottom: 0;
+  margin-top: auto;
   bottom: 0;
   position: fixed;
   left: 0;
