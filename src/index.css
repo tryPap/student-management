@@ -7,13 +7,13 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   min-height: 100vh;
 }
 
 .sidebar {
   width: 285px;
-  height: 100vh;
+  height: 90vh;
   padding: 20px;
   background-color: #343a40;
   color: #ffffff;
@@ -21,7 +21,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  border-radius: 1px;
 }
 
 
@@ -173,8 +172,9 @@ body {
 
 /* Footer */
 footer {
-  background-color: #343a40;
-  padding: 10px 8px; 
+  padding-top: 10px;
+  height: 25px;
+  background-color: #343a40; 
   margin-bottom: 0;
   margin-top: auto;
   bottom: 0;
