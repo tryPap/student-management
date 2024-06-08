@@ -13,7 +13,7 @@ body {
 
 .sidebar {
   width: 285px;
-  height: 886px;
+  height: 720px;
   padding: 20px;
   background-color: #343a40;
   color: #ffffff;
@@ -82,6 +82,7 @@ body {
 }
 
 .print {
+  margin-bottom: 50px;
   background-color: #ff0000;
   color: white;
   padding: 10px;
@@ -113,6 +114,8 @@ body {
   .container {
     flex-direction: column;
   }
+  .print {
+  margin-bottom: 50px;
 }
 /* Main Content */
 .main-content {
