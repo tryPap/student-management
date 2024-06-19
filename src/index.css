@@ -99,16 +99,19 @@ body {
   font-weight: bold;
   font-size: 16px;
   margin-top: 20px;
+  margin: 10px;
 }
 
 @media (max-width: 768px) {
   .main-content {
-    margin-left: 0;
-    padding-top: 20px; /* Adjust as needed */
+    margin-left: 20px;
+    padding-top: 10px; /* Adjust as needed */
+    
   }
   .sidebar {
     width: 100%;
     height: auto;
+    padding: 20px;
   }
   .container {
     flex-direction: column;
@@ -116,15 +119,15 @@ body {
   .print {
     margin-bottom: 10px;
   }
-
-
+  
 }
 /* Main Content */
 .main-content {
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 10px;  
+  padding-bottom: 5px;  
+    
 }
 
 .student-list {
@@ -177,17 +180,16 @@ body {
 
 /* Footer */
 footer {
-  padding-top: 10px;
-  height: 25px;
-  background-color: #343a40; 
+  background-color: #343a40;
   margin-bottom: 0;
-  margin-top: auto;
+  padding: 5px;
   bottom: 0;
   position: fixed;
   left: 0;
   width: 100%;
   border-radius: 1px;
-  opacity: 0.9;
+  color: #f7f7f7;
+  
  
 }
 
