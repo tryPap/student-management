@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/react-stdnt-managment/static/css/main.023204e7.css",
-    "main.js": "/react-stdnt-managment/static/js/main.7d2e4c89.js",
-    "static/js/453.0446f7cc.chunk.js": "/react-stdnt-managment/static/js/453.0446f7cc.chunk.js",
-    "index.html": "/react-stdnt-managment/index.html",
-    "main.023204e7.css.map": "/react-stdnt-managment/static/css/main.023204e7.css.map",
-    "main.7d2e4c89.js.map": "/react-stdnt-managment/static/js/main.7d2e4c89.js.map",
-    "453.0446f7cc.chunk.js.map": "/react-stdnt-managment/static/js/453.0446f7cc.chunk.js.map"
+    "main.css": "/student-management/static/css/main.bef8b1cd.css",
+    "main.js": "/student-management/static/js/main.f9528358.js",
+    "index.html": "/student-management/index.html",
+    "main.bef8b1cd.css.map": "/student-management/static/css/main.bef8b1cd.css.map",
+    "main.f9528358.js.map": "/student-management/static/js/main.f9528358.js.map"
   },
   "entrypoints": [
-    "static/css/main.023204e7.css",
-    "static/js/main.7d2e4c89.js"
+    "static/css/main.bef8b1cd.css",
+    "static/js/main.f9528358.js"
   ]
 }
